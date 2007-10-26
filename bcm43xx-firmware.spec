@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains the firmware for the bcm43xx driver.
 
 %prep
-%setup -q -c
+%setup -q -c -N
 
 %build
 install -d fw
