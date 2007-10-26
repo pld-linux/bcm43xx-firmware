@@ -3,10 +3,10 @@ Summary:	Firmware for the Broadcom wireless chipsets
 Name:		bcm43xx-firmware
 Version:	3
 Release:	1
-License:	unknown
+License:	Copyrighted by Broadcom Corporation
 Group:		Base/Kernel
-Source0:	http://downloads.openwrt.org/sources/wl_apsta-3.130.20.0.o
-# Source0-md5:	e08665c5c5b66beb9c3b2dd54aa80cb3
+NoSource0:	http://downloads.openwrt.org/sources/wl_apsta-3.130.20.0.o
+# NoSource0-md5:	e08665c5c5b66beb9c3b2dd54aa80cb3
 URL:		http://linuxwireless.org/en/users/Drivers/bcm43xx#devicefirmware
 BuildRequires:	bcm43xx-fwcutter
 BuildArch:	noarch
