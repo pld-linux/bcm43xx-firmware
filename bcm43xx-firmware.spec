@@ -1,5 +1,5 @@
-#
-Summary:	Firmware for the Broadcom wireless chipsets
+Summary:	Firmware for the Broadcom 43xx wireless chipsets
+Summary(pl.UTF-8):	Formware dla układów bezprzewodowych Broadcom 43xx
 Name:		bcm43xx-firmware
 Version:	3
 Release:	1
@@ -14,7 +14,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package contains the firmware for the bcm43xx driver.
+This package contains the firmware for the Broadcom 43xx chipsets
+using bcm43xx driver.
+
+%description -l pl.UTF-8
+Ten pakiet zawiera firmware dla układów bezprzewodowych Broadcom 43xx
+wykorzystujących sterownik bcm43xx.
 
 %prep
 %setup -q -c -T
